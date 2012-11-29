@@ -1,0 +1,9 @@
+<ul id="notelist">
+  <% @notes.each do |n| %>
+    <%= render 'note', :note => n %>
+  <% end %>
+  
+</ul>
+
+<%= render 'form' %>
+

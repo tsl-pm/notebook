@@ -1,0 +1,12 @@
+== Aha! Notebook 
+
+This app keeps a simple notebook of Aha moments we've had throughout the quarter.
+
+We'll start this app as a regular Rails application, then use Javascript to enhance the user experience.
+
+== MVP User Stories
+
+* As a user, I want to add items to my list of ah-ha moments.
+* As a user, I want to delete an item from the list.
+* As a user, I want to edit an item in the list.
+* As a user, I want keep track of multiple lists.
