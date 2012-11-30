@@ -1,5 +1,5 @@
 <li id="note_<%= note.id %>">
   <%= note.description %>
-  <%= link_to image_tag('trash-can-icon.jpg', size: '20x20'), note_url(note),:method => :delete, :remote => true %>
+  <%= link_to image_tag('trash-can-icon.jpg', size: '20x20'), note_url(note),:method => :delete %>
   <a href="#"><img src="/assets/pencil.png" height="20" width="20"></a>
 </li>
