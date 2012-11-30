@@ -1,2 +1,3 @@
 $("#notelist").append("<%= escape_javascript(render('note', :note => @note )) %>");
+$("#note_<%= @note.id %>").slideDown();
 $("#note_description").val("");

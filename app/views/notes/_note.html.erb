@@ -1,4 +1,4 @@
-<li id="note_<%= note.id %>">
+<li style="display: none;" id="note_<%= note.id %>">
   <%= note.description %>
   <%= link_to image_tag('trash-can-icon.jpg', size: '20x20'), note_url(note),:method => :delete, :remote => true %>
   <%= link_to image_tag('pencil.png', :size => '20x20'), edit_note_url(note.id), :remote => true %>

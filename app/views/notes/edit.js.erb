@@ -1,2 +1,2 @@
 $("#note_<%= @note.id %>").replaceWith("<%= j(render('form')) %>");
-$("#note_description").focus();
+$("#edit_note_<%= @note.id %>").children(".field").children("#note_description").focus();
